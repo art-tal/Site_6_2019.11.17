@@ -1,0 +1,42 @@
+@font-face {
+  font-family: "Optima LT Medium";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fontsOptima LT Medium.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "SegoeWPN-Black";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/SegoeWPN-Black.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "SegoeWPLight";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/SegoeWPLight.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "SegoeWPN-Bold";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/SegoeWPN-Bold.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "SegoeWPN";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/SegoeWPN.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "SegoeWPN-Light";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/SegoeWPN-Light.ttf") format("truetype"); }
+
+
+@font-face {
+  font-family: "Simplo W90 Caps DEMO";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/Simplo W90 Caps DEMO") format("truetype"); }
