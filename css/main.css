@@ -1,4 +1,62 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: "SegoeWPN-Light", sans-serif;
+}
+
 body {}
 
+/*/////////HEADER////////////*/
 
+header {
+	width: 100%;
+	border-bottom: 1px solid #ECECEC;
+}
 
+header .container {
+	width: 1024px;
+	margin: 0 auto;
+	padding: 0;
+}
+
+header .container nav {
+	padding-left: 0;
+}
+
+header .container nav img {
+	margin: 29px 0 16px 13px;
+}
+
+header .container nav .navbar-nav {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	margin: 15px 0 0 29px;
+}
+
+header .container nav .navbar-nav .nav-link {
+	flex: 1;
+	padding: 1px 23px 4px 20px;
+	font-size: 23px;
+	color: #373737;
+}
+
+header .container nav .navbar-nav .nav-link:first-child {
+	    margin-right: 35px;
+}
+
+header .container nav .navbar-nav .nav-link:nth-child(2) {
+	    margin-right: 20px;
+}
+
+header .container nav .navbar-nav .nav-link:nth-child(3) {
+	    margin-right: 13px;
+}
+
+header .container nav .navbar-nav .nav-link.active,
+header .container nav .navbar-nav a:hover {
+	background-color: #373737;
+	color: #fff;
+}
