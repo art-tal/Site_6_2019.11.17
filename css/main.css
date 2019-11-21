@@ -33,16 +33,10 @@ header .container nav img {
 }
 
 header .container nav .navbar-nav {
-	/*display: -webkit-flex;
-	display: -moz-flex;
-	display: -ms-flex;
-	display: -o-flex;
-	display: flex;*/
 	margin: 15px 0 0 29px;
 }
 
 header .container nav .navbar-nav .nav-link {
-	/*flex: 1;*/
 	padding: 1px 23px 4px 20px;
 	font-size: 23px;
 	color: #373737;
@@ -79,16 +73,13 @@ main {
 }
 
 main .container {
-	/*width: 1024px;*/
 	margin: auto;
 	padding: 0;
 	padding-bottom: 43px;
 }
 
 .container .wrap {
-	padding-left: 78px;
-    padding-top: 173px;	
-	padding-bottom: 181px;
+	padding: 173px 0 181px 78px
 }
 
 .container .wrap h2 {
@@ -133,8 +124,7 @@ main .container {
 }
 
 .container .row .col-8 article img {
-	margin-right: 20px;
-    margin-left: 3px;
+	margin: 0 20px 0 3px;
     height: 100%;
 }
 
@@ -149,8 +139,7 @@ article header {
 .container .row .col-8 article h1 {
 	font-size: 30px;
 	line-height: 37px;
-	margin-bottom: 6px;
-    margin-top: -8px;
+	margin: -8px 0 6px 0;
 }
 
 .container .row .col-8 article p {
@@ -204,7 +193,6 @@ article header {
 .container .row .col-8 .grid article header h1 {
 	font-size: 26px;
 	line-height: 28px;
-	/*margin-bottom: 5px;*/
 }
 
 .container .row .col-8 .grid article p {
@@ -228,7 +216,6 @@ article header {
 
 .container .row .col-4 .i_pad {
     position: relative;
-	/*margin-left: 2px;*/
 	border: 1px solid #E1DDDD;
 	padding: 12px 20px 12px 20px;
 }
@@ -254,7 +241,6 @@ article header {
 }
 
 .container .row .col-4 .i_pad img[alt="tablets"] {
-	/*margin: 0 0 0 0;*/
     position: absolute;
     bottom: -28px;
     left: 36px;
@@ -262,8 +248,7 @@ article header {
 
 .container .row .col-4 .join_us {
 	position: relative;
-	margin-top: 50px;
-    margin-left: -1px;
+	margin: 50px 0 0 -1px;
 	background-color: #86E7F0;
 	color: #fff;
 	text-align: center;
@@ -314,8 +299,7 @@ article header {
 	text-transform: uppercase;
 	font-size: 20.14px;
     padding: 3px 12px 0px 20px;
-    margin-left: 10px;
-    margin-bottom: 12px;
+    margin: 0 0 12px 10px;
 	border: none;
 	border-radius: 5px;
 	background-color: #58D1DC;
@@ -326,8 +310,7 @@ article header {
 	background-color: #393A39;
 	border-bottom: 7px solid #BB4465;
 	padding: 17px 32px 0 29px;
-	margin-top: 25px;
-    margin-left: -1px;
+	margin: 25px 0 0 -1px;
 	font-family: "SegoeWPLight", sans-serif;
 	color: #fff;
 }
@@ -350,10 +333,13 @@ article header {
 .container .row .col-4 form input {
 	width: 100%;
     padding: 1px 0 1px 9px;
-    margin-left: 1px;
+    margin: 0 0 12px 1px;
     border: none;
-    margin-bottom: 12px;
     letter-spacing: -1px;
+}
+
+.container .row .col-4 form input:invalid {
+	box-shadow: 0 0 5px 3px red;
 }
 
 .container .row .col-4 form button {
@@ -361,9 +347,7 @@ article header {
 	text-transform: uppercase;
 	font-size: 20.14px;
     padding: 3px 27px 0px 28px;
-    margin-left: 45px;
-    margin-bottom: 20px;
-    margin-top: 1px;
+    margin: 1px 0 20px 45px;
 	border: none;
 	border-radius: 7px;
 	background-color: #BB4465;
@@ -390,7 +374,7 @@ footer p{
 footer .social {
 	position: absolute;
     top: 27px;
-    right: 393px;
+    right: 406px;
 }
 
 footer .social a {
@@ -399,16 +383,11 @@ footer .social a {
 	height: 27px;	
 	border-radius: 3px;
 	margin-left: 11px;
-	/*background-color: #fff;*/
 	background-repeat: no-repeat;
 	background-position: 50% 50%;
 	-webkit-background-size: 100%;
 	background-size: 100%;
 }
-
-/*footer .social a img {
-	height: 27px;
-}*/
 
 footer .social a[name="facebook"] {
 	background-image: url(../img/fb_1.png);
