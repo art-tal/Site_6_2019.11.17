@@ -81,8 +81,8 @@ main {
 main .container {
 	/*width: 1024px;*/
 	margin: auto;
-	padding-bottom: 43px;
 	padding: 0;
+	padding-bottom: 43px;
 }
 
 .container .wrap {
@@ -368,4 +368,56 @@ article header {
 	border-radius: 7px;
 	background-color: #BB4465;
 	color: #fff;
+}
+
+
+/*/////////FOOTER////////////*/	
+
+footer {
+	width: 100%;
+	background-color: #393A39;
+	color: #fff;
+	text-align: center;
+	position: relative;
+	padding: 23px 23px 24px 0px;
+}
+
+footer p{
+	font-family: "SegoeWPLight", sans-serif;
+	font-size: 16px;
+}
+
+footer .social {
+	position: absolute;
+    top: 27px;
+    right: 393px;
+}
+
+footer .social a {
+	display: inline-block;
+	width: 27px;
+	height: 27px;	
+	border-radius: 3px;
+	margin-left: 11px;
+	/*background-color: #fff;*/
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	-webkit-background-size: 100%;
+	background-size: 100%;
+}
+
+/*footer .social a img {
+	height: 27px;
+}*/
+
+footer .social a[name="facebook"] {
+	background-image: url(../img/fb_1.png);
+}
+
+footer .social a[name="twitter"] {
+	background-image: url(../img/twitter_1.png);
+}
+
+footer .social a[name="youtube"] {
+	background-image: url(../img/you_tube.png);
 }
