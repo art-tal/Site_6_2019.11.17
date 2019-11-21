@@ -19,6 +19,11 @@ header .container {
 	padding: 0;
 }
 
+header .col-6 {
+	padding-left: 0;
+	margin-right: 31px;
+}
+
 header .container nav {
 	padding-left: 0;
 }
@@ -28,16 +33,16 @@ header .container nav img {
 }
 
 header .container nav .navbar-nav {
-	display: -webkit-flex;
+	/*display: -webkit-flex;
 	display: -moz-flex;
 	display: -ms-flex;
 	display: -o-flex;
-	display: flex;
+	display: flex;*/
 	margin: 15px 0 0 29px;
 }
 
 header .container nav .navbar-nav .nav-link {
-	flex: 1;
+	/*flex: 1;*/
 	padding: 1px 23px 4px 20px;
 	font-size: 23px;
 	color: #373737;
@@ -58,5 +63,309 @@ header .container nav .navbar-nav .nav-link:nth-child(3) {
 header .container nav .navbar-nav .nav-link.active,
 header .container nav .navbar-nav a:hover {
 	background-color: #373737;
+	color: #fff;
+}
+
+
+/*/////////MAIN////////////*/
+.row {
+	margin: 0;
+}
+
+main {
+	background-image: url(../img/ipad.png);
+	background-repeat: no-repeat;
+	background-position: right 287px top 116px;
+}
+
+main .container {
+	/*width: 1024px;*/
+	margin: auto;
+	padding-bottom: 43px;
+	padding: 0;
+}
+
+.container .wrap {
+	padding-left: 78px;
+    padding-top: 173px;	
+	padding-bottom: 181px;
+}
+
+.container .wrap h2 {
+	font-family: "SegoeWPLight", sans-serif;
+	font-size: 47.13px;
+    line-height: 65.86px;
+    margin-bottom: 16px;
+    color: #5D5D5D
+}
+
+.container .wrap h2:first-line {
+	font-size: 61.13px;
+}
+
+.container .wrap button {
+	font-family: "SegoeWPN", sans-serif;
+	font-size: 23px;
+	padding: 3px 18px 3px 57px;
+	color: #fff;
+	background-color: #373737;
+	background-image: url(../img/camera.png);
+	background-repeat: no-repeat;
+	background-position: 12px 13px;
+	border-radius: 0;
+	border: none;
+}
+
+.container .row .col-8 {
+	padding: 0;
+    padding-left: 56px;
+}
+
+.container .row .col-8 > article {
+	width: 100%;
+	font-family: "SegoeWPN", sans-serif;
+	color: #696161;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+}
+
+.container .row .col-8 article img {
+	margin-right: 20px;
+    margin-left: 3px;
+    height: 100%;
+}
+
+.container .row .col-8 article .content {
+	padding-left: 7px;
+}
+
+article header {
+	border: none;
+}
+
+.container .row .col-8 article h1 {
+	font-size: 30px;
+	line-height: 37px;
+	margin-bottom: 6px;
+    margin-top: -8px;
+}
+
+.container .row .col-8 article p {
+	font-size: 14px;
+	line-height: 20px;
+	padding-right: 49px;
+    margin-bottom: 12px;
+    text-align: justify;
+}
+
+.container .row .col-8 article button {
+	width: 32px;
+	height: 39px;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	border: none;
+	text-align: right;
+	float: right;
+}
+
+.container .row .col-8 article button[name="back"] {
+	background-color: #7C7D7C;
+	background-image: url(../img/back.png);
+}
+
+.container .row .col-8 article button[name="next"] {
+	background-color: #989998;
+	background-image: url(../img/next.png);
+	margin-right: 23px;
+}
+
+.container .row .col-8 .grid {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	width: 100%;
+	margin-top: 45px;
+	padding-right: 16px;
+	display: grid;
+	grid-template-columns: repeat(3, 33%);
+	grid-auto-rows: auto;
+	grid-column-gap: 6px;
+	grid-row-gap: 40px;
+	color: #696161;
+}
+
+.container .row .col-8 .grid article:nth-child(n+7) {
+	margin-top: 16px;
+}
+
+.container .row .col-8 .grid article header h1 {
+	font-size: 26px;
+	line-height: 28px;
+	/*margin-bottom: 5px;*/
+}
+
+.container .row .col-8 .grid article p {
+	font-size: 14px;
+	line-height: 20px;
+	text-align: justify;
+	margin-top: 8px;
+    padding-right: 15px;
+    word-spacing: -0.6px;
+}
+
+.container .row .col-8 .grid article p:nth-child(2) {
+	letter-spacing: 0.25px;
+    margin-left: 2px;
+}
+
+.container .row .col-4 {
+	padding: 0;
+	padding-right: 63px;
+}
+
+.container .row .col-4 .i_pad {
+    position: relative;
+	/*margin-left: 2px;*/
+	border: 1px solid #E1DDDD;
+	padding: 12px 20px 12px 20px;
+}
+
+.container .row .col-4 .i_pad h3 {
+	font-family: "SegoeWPN-Bold", sans-serif;
+	font-size: 39px;
+	line-height: 39px;
+	color: #B8DC58;
+	text-align: center;
+}
+
+.container .row .col-4 .i_pad h3:first-line {	
+	font-family: "SegoeWPN", sans-serif;
+	font-size: 21px;
+	padding: 21px;
+	line-height: 27px;
+	color: #9BA08D;
+}
+
+.container .row .col-4 .i_pad img[alt="css"] {
+	margin: 117px 0 0 196px;
+}
+
+.container .row .col-4 .i_pad img[alt="tablets"] {
+	/*margin: 0 0 0 0;*/
+    position: absolute;
+    bottom: -28px;
+    left: 36px;
+}
+
+.container .row .col-4 .join_us {
+	position: relative;
+	margin-top: 50px;
+    margin-left: -1px;
+	background-color: #86E7F0;
+	color: #fff;
+	text-align: center;
+	padding-top: 108px;
+}
+
+.container .row .col-4 .join_us .week {
+	position: absolute;
+    top: -20px;
+    left: 96px;
+    width: 131px;
+    height: 131px;
+	border: 5px solid #fff;
+	border-radius: 50%;
+	background-color: #EF809F;
+}
+
+.container .row .col-4 .join_us .week p {
+	font-family: "SegoeWPN", sans-serif;
+	font-size: 21.71px;
+	text-transform: uppercase;
+    margin-top: 29px;
+    line-height: 44px;
+}
+
+.container .row .col-4 .join_us .week p:first-line {
+	font-family: "SegoeWPN-Black", sans-serif;
+	font-size: 71.58px;
+}
+
+.container .row .col-4 .join_us h2{
+	font-family: "Simplo W90 Caps DEMO", "SegoeWPN-Light", sans-serif;
+	text-transform: uppercase;
+	font-size: 46.19px;
+	margin-bottom: 2px;
+}
+
+.container .row .col-4 .join_us h3 {
+	font-family: "Optima LT Medium", "SegoeWPN-Light", sans-serif;
+	font-size: 23.43px;
+    padding: 0 0px 0 11px;
+    line-height: 29px;
+    margin-bottom: 3px;
+}
+
+.container .row .col-4 .join_us button {
+	font-family: "Optima LT Medium", "SegoeWPN-Light", sans-serif;
+	text-transform: uppercase;
+	font-size: 20.14px;
+    padding: 3px 12px 0px 20px;
+    margin-left: 10px;
+    margin-bottom: 12px;
+	border: none;
+	border-radius: 5px;
+	background-color: #58D1DC;
+	color: #fff;
+}
+
+.container .row .col-4 form {
+	background-color: #393A39;
+	border-bottom: 7px solid #BB4465;
+	padding: 17px 32px 0 29px;
+	margin-top: 25px;
+    margin-left: -1px;
+	font-family: "SegoeWPLight", sans-serif;
+	color: #fff;
+}
+
+.container .row .col-4 form h2 {
+	text-transform: uppercase;
+	font-size: 27px;
+    margin-left: 21px;
+    padding-right: 7px;
+}
+
+.container .row .col-4 form p {
+	font-size: 16px;
+	text-align: justify;
+    line-height: 21px;
+    margin-bottom: 14px;
+    padding-right: 6px;
+}
+
+.container .row .col-4 form input {
+	width: 100%;
+    padding: 1px 0 1px 9px;
+    margin-left: 1px;
+    border: none;
+    margin-bottom: 12px;
+    letter-spacing: -1px;
+}
+
+.container .row .col-4 form button {
+	font-family: "Optima LT Medium", "SegoeWPN-Light", sans-serif;
+	text-transform: uppercase;
+	font-size: 20.14px;
+    padding: 3px 27px 0px 28px;
+    margin-left: 45px;
+    margin-bottom: 20px;
+    margin-top: 1px;
+	border: none;
+	border-radius: 7px;
+	background-color: #BB4465;
 	color: #fff;
 }
